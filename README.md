@@ -1,4 +1,4 @@
-# Svelte Project README
+# Profile page in svelte
 
 ## Objective
 
