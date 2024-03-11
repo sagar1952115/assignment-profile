@@ -1,38 +1,33 @@
-# create-svelte
+# Svelte Project README
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Objective
 
-## Creating a project
+The objective of this project was to build a web application using the Svelte framework. The assignment aimed to demonstrate proficiency in developing user interfaces with Svelte, implementing various components.
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Installation
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+1. Clone the repository: `git clone https://github.com/sagar1952115/assignment-profile.git`
+2. Navigate to the project directory: `cd assignment-profile`
+3. Install dependencies: `npm install`
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### Usage
 
-## Developing
+1. Start the development server: `npm run dev`
+2. Open your browser and navigate to `http://localhost:5173` to view the application.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Deployed Link
 
-```bash
-npm run dev
+https://duggup-profile-page.netlify.app/
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### Takeaways
 
-## Building
+- Learned to efficiently manage state and trigger updates using Svelte's reactive declarations.
+- Explored Svelte's component lifecycle hooks for initialization and cleanup tasks.
+- Gained insight into Svelte's use of shadow DOM for encapsulating styles and behavior within components.
 
-To create a production version of your app:
+## Credits
 
-```bash
-npm run build
-```
+Special thanks to the following resource for providing valuable tutorials and guidance throughout the project:
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- https://www.youtube.com/playlist?list=PLVGpQnv1Jm4zF85nLVJU2hvqg3CBa6QQd
+- https://www.shadcn-svelte.com/docs/installation/sveltekit
